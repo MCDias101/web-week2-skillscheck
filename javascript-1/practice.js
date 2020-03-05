@@ -4,11 +4,15 @@
 
 // Code here
 
+var myName = 'MC'; 
+
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called 'faveNum' with a value that is your favorite number. 
 
 //Code here
+
+var faveNum = 2; 
 
 //////////////////PROBLEM 3////////////////////
 
@@ -16,11 +20,17 @@
 
 //Code here
 
+var lovesCode = true; 
+
 //////////////////PROBLEM 4////////////////////
 
 // Create a function called 'sum' that takes in two parameters, 'num1' and 'num2'. The function should return the sum of the two parameters.
 
 //Code here
+
+function sum(num1, num2){
+	return num1 + num2
+}; 
 
 //////////////////PROBLEM 5////////////////////
 
@@ -28,17 +38,41 @@
 
 //Code here
 
+function lovesCodeChecker(x){
+	if (x == true){
+		return 'true';
+	} if (x == false){
+		return 'false';
+	}
+}; 
+
+
 //////////////////PROBLEM 6////////////////////
 
 // Create a function called 'oddChecker' that takes in one parameter, 'num'. Your function should check to see if the parameter is even or odd. If the parameter is odd, return 'the number is odd'. If the number is even, return 'the number is even'.
 
 //Code here
 
+function oddChecker(num){
+	if (num == even){
+	 return 'The number is even'; 
+	}
+	if (num == odd){
+	 return 'The number is odd'; 
+	}
+}; 
+
 //////////////////PROBLEM 7////////////////////
 
 // Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. Have the function take the two parameters and return a string that says "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 
 //Code Here
+
+//function iLove(name, love){
+//	if (name == 'Pam'){
+//		return('')
+//	} if (name == )
+//}
 
 //////////////////PROBLEM 8////////////////////
 
@@ -47,11 +81,15 @@ const faveColors = ['red', 'green', 'black']
 
 //Code Here
 
+let colorCopy = faveColor.slice()
+
 //////////////////PROBLEM 9////////////////////
 
 // Add a fourth color to the end of the 'colorCopy' array using push.
 
 //Code Here
+
+faveColor.push("teal"); 
 
 //////////////////PROBLEM 10////////////////////
 
@@ -60,11 +98,15 @@ const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
 
+
+
 //////////////////PROBLEM 11////////////////////
 
 // Create an object called 'me' that has the following keys: firstName, state, age, and greeter. The value of the firstName key should be your name as a string. The value of the property state should be your current state or providence of residence as a string. The value of age should be your age as a number. greeter should be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the corresponding values. 
 
 //Code Here
+
+obj 
 
 //////////////////PROBLEM 12////////////////////
 

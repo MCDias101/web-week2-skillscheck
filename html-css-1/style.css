@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    height: 50x;
+}
+
+header {
+display: flex; 
+justify-content: space-between;
+background-color: grey;
+height: 15px; 
+}
+
+.leftNav,.rightNav {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.leftNav {
+    width: 15%;
+}
+
+.rightNav {
+    width:25%;
+}
+
+.leftNav li, .rightNav li {
+    list-style:none;
+    color:white;
+    font-family: 'Helvetica';
+}
+
+.rightNav li {
+    font-size: 10px;
+}
+
+.leftNav li {
+    font-size: 20px; 
+}
+
+main {
+    
+}
